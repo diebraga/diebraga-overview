@@ -87,12 +87,13 @@ const About = () => {
           className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
           Hi my name is Diego Braga, I'm a passionate Brazilian software
-          developer based in Ireland with expertise in TypeScript, JavaScript,
-          React, Next.js, and Node.js. I specialize in developing efficient,
-          scalable, and user-friendly solutions that solve real-world problems.
-          I have experience manipulating 3D scenes with frameworks like
-          Babylonjs or ThreeJs, developing and creating automated tests for
-          frontend and backend applications.
+          developer based in Ireland that's uses a wheelchair to go around, With
+          expertise in TypeScript, JavaScript, React, Next.js, and Node.js. I
+          specialize in developing efficient, scalable, and user-friendly
+          solutions that solve real-world problems. I have experience
+          manipulating 3D scenes with frameworks like Babylonjs or ThreeJs,
+          developing and creating automated tests for frontend and backend
+          applications.
         </motion.p>
       </div>
 
