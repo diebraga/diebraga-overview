@@ -2,7 +2,6 @@ import React from "react";
 import Tilt from "react-tilt";
 import { motion } from "framer-motion";
 import AliceCarousel from "react-alice-carousel";
-import "react-alice-carousel/lib/alice-carousel.css";
 
 import { styles } from "../styles";
 import { services } from "../constants";

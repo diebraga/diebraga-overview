@@ -26,7 +26,7 @@ import {
   express,
   prisma,
   socket,
-  grpc
+  grpc,
 } from "../assets";
 
 export const navLinks = [
@@ -151,7 +151,6 @@ const technologies = [
   },
 ];
 
-
 const experiences = [
   {
     title: "Full Stack Web Developer",
@@ -223,67 +222,124 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Is It a cat or a dog",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A Deep  Learning api that predicts if the probability of the inputed image to be a Dog a Cat or other, It use FastAI machine learning libraries and FastApi.",
     tags: [
       {
-        name: "react",
+        name: "fastAI",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
+        name: "python",
+        color: "text-yellow-500",
       },
       {
-        name: "tailwind",
-        color: "pink-text-gradient",
+        name: "vite",
+        color: "text-blue-500",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image:
+      "https://user-images.githubusercontent.com/52054459/224771687-2ed97135-8669-4775-a81b-e1097fd26500.gif",
+    source_code_link: "https://github.com/diebraga/is_dog_machine_learning",
   },
   {
-    name: "Job IT",
+    name: "Tour View",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Starter NextJs app that simulates Google Street View functionalities with NextJS React-Three-Fiber and Drei.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: "nextJs",
+        color: "text-gray-300",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
+        name: "threeJs",
+        color: "text-green-500",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image:
+      "https://user-images.githubusercontent.com/52054459/224830831-78c14202-3f59-4d2e-bd11-b0a0abab0d05.gif",
+    source_code_link: "https://github.com/diebraga/tour_view",
   },
   {
-    name: "Trip Guide",
+    name: "Babylon NextJS Starter",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A Starter NextJS App that renders a scene with a thrird person camera using BabylonJs framework.",
     tags: [
       {
         name: "nextjs",
-        color: "blue-text-gradient",
+        color: "text-gray-300",
       },
       {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
+        name: "babylonJs",
+        color: "text-orange-500",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image:
+      "https://user-images.githubusercontent.com/52054459/224835610-f1f17da5-bb4d-494e-8d91-fa898e615fc0.gif",
+    source_code_link: "https://github.com/diebraga/next_js_babylonjs_demo",
+  },
+  {
+    name: "Realtime Chat Room",
+    description:
+      "A Simple realtime chat room with nextJs in the frontend Nodejs Express and SocketIo framework.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "text-gray-300",
+      },
+      {
+        name: "nodejs",
+        color: "text-green-600",
+      },
+      {
+        name: "socketIo",
+        color: "text-yellow-300",
+      },
+    ],
+    image:
+      "https://user-images.githubusercontent.com/52054459/224837848-912a5bd1-2fa0-47bd-8d59-78437d3eea98.gif",
+    source_code_link: "https://github.com/diebraga/simple_chatroom_app",
+  },
+  {
+    name: "GuessGeoWorld",
+    description:
+      "A Greagraphy game with two modalityes guess countries or guess countries flags divided by continent, Using nextjs and chacraUI.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "text-gray-300",
+      },
+      {
+        name: "chackraui",
+        color: "text-blue-400",
+      },
+    ],
+    image:
+      "https://user-images.githubusercontent.com/52054459/224839866-2b382fd5-fe92-4c30-a8d0-f656de87e3ba.gif",
+    source_code_link: "https://github.com/diebraga/GuessGeoWorld",
+  },
+  {
+    name: "Stripe Shop",
+    description:
+      "A Shopping cart built with nextjs, stitches and a serverless api route that creates a stripe checkout.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "text-gray-300",
+      },
+      {
+        name: "stitches",
+        color: "text-red-400",
+      },
+      {
+        name: "stripe",
+        color: "text-blue-600",
+      },
+    ],
+    image:
+      "https://user-images.githubusercontent.com/52054459/200176756-f34c8511-841b-42aa-b1b7-0d2829a9bdd5.png",
+    source_code_link: "https://github.com/diebraga/ignite_shop_2022",
   },
 ];
 
