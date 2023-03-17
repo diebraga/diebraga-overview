@@ -222,9 +222,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Is It a cat or a dog",
+    name: "Image Classification",
     description:
-      "A Deep  Learning api that predicts if the probability of the inputed image to be a Dog a Cat or other, It use FastAI machine learning libraries and FastApi.",
+      "A Deep Learning app that predicts if the probability of the inputed image to be a Dog a Cat or other, It use FastAI machine learning libraries and FastApi.",
     tags: [
       {
         name: "fastAI",
@@ -249,11 +249,11 @@ const projects = [
       "Starter NextJs app that simulates Google Street View functionalities with NextJS React-Three-Fiber and Drei.",
     tags: [
       {
-        name: "nextJs",
+        name: "nextjs",
         color: "text-gray-300",
       },
       {
-        name: "threeJs",
+        name: "threejs",
         color: "text-green-500",
       },
     ],
@@ -340,6 +340,50 @@ const projects = [
     image:
       "https://user-images.githubusercontent.com/52054459/200176756-f34c8511-841b-42aa-b1b7-0d2829a9bdd5.png",
     source_code_link: "https://github.com/diebraga/ignite_shop_2022",
+  },
+  {
+    name: "Minecraft Clone",
+    description:
+      "A Minecraft clone with react, react-three-fiber and threejs.",
+    tags: [
+      {
+        name: "react",
+        color: "text-blue-300",
+      },
+      {
+        name: "threejs",
+        color: "text-green-500",
+      },
+      {
+        name: "chackraui",
+        color: "text-blue-400",
+      },
+    ],
+    image:
+      "https://user-images.githubusercontent.com/52054459/225892189-affbd469-5e98-4d18-be76-c9d2a7803ca4.png",
+    source_code_link: "https://github.com/diebraga/mine-craft-react",
+  },
+  {
+    name: "Facial Recognition",
+    description:
+      "A Minecraft clone with react, react-three-fiber and threejs.",
+    tags: [
+      {
+        name: "opencv",
+        color: "text-red-500",
+      },
+      {
+        name: "python",
+        color: "text-yellow-500",
+      },
+      {
+        name: "react",
+        color: "text-blue-300",
+      },
+    ],
+    image:
+      "https://user-images.githubusercontent.com/52054459/225896553-f9cef9b9-26ff-43d6-affc-8448e812eac1.png",
+    source_code_link: "https://github.com/diebraga/facial_recognition",
   },
 ];
 
