@@ -31,6 +31,26 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
+    if (!form.email) {
+      alert("Email is required!")
+      return
+    } 
+
+    if (!form.name) {
+      alert("Name is required!")
+      return
+    } 
+
+    if (!form.message) {
+      alert("Message is required!")
+      return
+    } 
+
+    if (form.message > 200) {
+      alert("Message is too long!")
+      return
+    } 
+
     emailjs
       .send(
         import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
