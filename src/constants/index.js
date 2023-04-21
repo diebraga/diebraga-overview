@@ -157,7 +157,7 @@ const experiences = [
     company_name: "Kosmos",
     icon: kos,
     iconBg: "#000",
-    date: "Jan 2020 - Mar 2022",
+    date: "Jan 2020 - Mar 2021",
     points: [
       "Developing frontend applications using Next.js and Chakra UI.",
       "Manipulating 3D scenes using Babylon.js or Three.js to provide users with an immersive gaming experience.",
