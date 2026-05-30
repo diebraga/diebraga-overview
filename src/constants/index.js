@@ -18,6 +18,7 @@ import {
   kos,
   templ8,
   hertz,
+  glasslewis,
   babylon,
   apollo,
   graph,
@@ -189,6 +190,19 @@ const experiences = [
       "Collaborating with cross-functional teams designers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Create unit tests using Jest and React Testing Library and E2E cypress.",
+    ],
+  },
+  {
+    title: "Senior Frontend Engineer",
+    company_name: "Glass Lewis",
+    icon: glasslewis,
+    iconBg: "#1a3a5c",
+    date: "Mar 2025 - Dec 2025",
+    points: [
+      "Maintain and enhance existing large-scale Angular applications using TypeScript.",
+      "Design and develop new frontend applications for new products using a micro-frontend architecture with Native Federation.",
+      "Collaborate closely with backend, QA, and product teams in an Agile environment.",
+      "Contribute to CI/CD pipelines and containerized deployments using Docker and Azure DevOps.",
     ],
   },
 ];

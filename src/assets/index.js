@@ -28,6 +28,7 @@ import django from "./tech/django.png";
 import grpc from "./tech/grpc.png";
 
 import hertz from "./company/hertz.png";
+import glasslewis from "./company/glasslewis.svg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -64,5 +65,6 @@ export {
   express,
   prisma,
   django,
-  grpc
+  grpc,
+  glasslewis
 };
