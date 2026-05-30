@@ -183,7 +183,7 @@ const experiences = [
     company_name: "Hertz",
     icon: hertz,
     iconBg: "#fff",
-    date: "Jan 2022 - Present",
+    date: "Jan 2022 - Mar 2025",
     points: [
       "Developing and maintaining React.js microfrontends between different Hertz brands.",
       "Developing and maintaining React Native apps between different Hertz brands.",
